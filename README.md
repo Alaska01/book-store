@@ -9,7 +9,7 @@ This project was bootstrapped with Create React App.
 - CSS
 
 ## Live Demo
-[Live Demo](www.abc.com)
+[Live Demo](https://bookstore-milestone-1.netlify.app/)
 
 ## Getting Started 
 To get a local copy up and running, follow these simple example steps.
