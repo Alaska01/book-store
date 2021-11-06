@@ -3,6 +3,13 @@ import { useDispatch } from 'react-redux';
 import { addBook } from '../actions/books';
 
 const CATEGORIES = [
+  'Electronics',
+  'Machine Learning',
+  'Control Systems',
+  'Artificial Intelligence',
+  'Coding',
+  'Internet of Things',
+  'Bootcamp',
   'Action',
   'Biography',
   'History',
