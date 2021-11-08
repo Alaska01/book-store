@@ -10,6 +10,8 @@ const CATEGORIES = [
   'Coding',
   'Internet of Things',
   'Bootcamp',
+  'Deep Learning',
+  'Robotics',
   'Action',
   'Biography',
   'History',

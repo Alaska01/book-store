@@ -10,6 +10,8 @@ const CATEGORIES = [
   'Coding',
   'Internet of Things',
   'Bootcamp',
+  'Deep Learning',
+  'Robotics',
   'Action',
   'Biography',
   'History',
@@ -22,7 +24,7 @@ const CATEGORIES = [
 function BooksForm() {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
-  const [category, setCategory] = useState('Action');
+  const [category, setCategory] = useState('Electronics');
 
   const handleChange = (event) => {
     if (event.target.name === 'title') setTitle(event.target.value);
