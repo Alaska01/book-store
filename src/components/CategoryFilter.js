@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const CATEGORIES = [
-  'All',
   'Electronics',
   'Machine Learning',
   'Control Systems',
@@ -24,6 +23,7 @@ const CATEGORIES = [
 function CategoryFilter({ handleFilterChange }) {
   return (
     <select onChange={handleFilterChange} name="filter">
+      <option value="All">All</option>
       {CATEGORIES.map((category) => (
         <option key={category} value={category}>
           {category}
