@@ -24,12 +24,7 @@ const CATEGORIES = [
 function BooksForm() {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
-  const [category, setCategory] = useState('Electronics');
-
-  const handleChange = (event) => {
-    if (event.target.name === 'title') setTitle(event.target.value);
-    if (event.target.name === 'category') setCategory(event.target.value);
-  };
+  const [category, setCategory] = useState('Action');
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -41,18 +36,25 @@ function BooksForm() {
     }
   };
 
+  const handleChange = (event) => {
+    if (event.target.name === 'title') setTitle(event.target.value);
+    if (event.target.name === 'category') setCategory(event.target.value);
+  };
+
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className="books-form main">
+      <div className="books-form add-text ">ADD NEW BOOK</div>
+      <form onSubmit={handleSubmit} className="books-form form-main ">
         <input
-          type="text"
           name="title"
           onChange={handleChange}
-          placeholder="Title"
+          type="text"
+          placeholder="Book Title"
+          className="books-form input "
           required
         />
-
         <select
+          className="books-form select-category "
           onChange={handleChange}
           name="category"
           required
@@ -66,7 +68,9 @@ function BooksForm() {
             </option>
           ))}
         </select>
-        <button type="submit">Add book</button>
+        <button type="submit" className="books-form add-book ">
+          ADD BOOK
+        </button>
       </form>
     </div>
   );
