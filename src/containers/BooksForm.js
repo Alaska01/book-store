@@ -42,7 +42,7 @@ function BooksForm() {
   };
 
   return (
-    <div className="books-form main">
+    <div className="books-form main-3">
       <div className="books-form add-text ">ADD NEW BOOK</div>
       <form onSubmit={handleSubmit} className="books-form form-main ">
         <input

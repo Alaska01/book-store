@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Book({ book, handleRemoveBook }) {
   return (
-    <div className="book main">
+    <div className="book main-2">
       <div className="book container">
         <div className="book book-info">
           <div className="book category">{book.category}</div>

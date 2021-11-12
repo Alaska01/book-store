@@ -40,13 +40,8 @@ body {
 
   span {
     float: right;
-    margin-left: 70rem;
+    margin-left: 69rem;
     color: #0290ff;
-  }
-
-  &.content .count {
-    height: 30px;
-    width: 140px;
   }
 
   h1,
@@ -67,18 +62,13 @@ body {
 
   h3 {
     font-size: 13px;
-    font-stretch: normal;
     letter-spacing: 1.9px;
     color: #121212;
   }
 }
 
 .book {
-  &.main-container {
-    width: 50%;
-  }
-
-  &.main {
+  &.main-2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -235,7 +225,7 @@ body {
 }
 
 .books-form {
-  &.main {
+  &.main-3 {
     margin: 0 100px 50px 100px;
   }
 
