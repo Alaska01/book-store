@@ -9,7 +9,6 @@ const NavBar = () => {
     dispatch(changeFilter(event.target.value));
   };
 
-  // The main-1 class was initially main, it may not be needed
   return (
     <div className="navbar main-1">
       <div className="navbar content">
