@@ -10,6 +10,9 @@ This project was bootstrapped with Create React App.
 - Redux
 - CSS
 
+This is a screenshot of repositioned avartar.
+![screenshot](screenshort2.png)
+
 ## Live Demo
 [Live Demo](https://bookstore-milestone-5.netlify.app/)
 
