@@ -5,13 +5,18 @@ const initialState = {
   book: [
     {
       id: 1,
-      title: 'Control Systems',
+      title: 'CSE',
       category: 'Robotics',
     },
     {
       id: 2,
-      title: 'Artificial Intelligence',
+      title: 'AIE',
       category: 'Deep Learning',
+    },
+    {
+      id: 3,
+      title: 'FTT',
+      category: 'Learning',
     },
   ],
   filter: 'All',

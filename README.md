@@ -1,6 +1,8 @@
 # Bookstore App
 This project was bootstrapped with Create React App.
 
+![screenshot](screenshort.png)
+
 ## Built With
 - CSS
 - JavaScript(ES6)
@@ -8,8 +10,11 @@ This project was bootstrapped with Create React App.
 - Redux
 - CSS
 
+This is a screenshot of repositioned avartar.
+![screenshot](screenshort2.png)
+
 ## Live Demo
-[Live Demo](https://bookstore-milestone-4.netlify.app/)
+[Live Demo](https://bookstore-milestone-5.netlify.app/)
 
 ## Getting Started 
 To get a local copy up and running, follow these simple example steps.
